@@ -72,6 +72,242 @@ var Button = function Button(_ref) {
 
 /***/ }),
 
+/***/ "./components/Card.js":
+/*!****************************!*\
+  !*** ./components/Card.js ***!
+  \****************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+var _jsxFileName = "C:\\Users\\dusty\\OneDrive\\Desktop\\realEstateSite\\components\\Card.js";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+{
+  /* <Card  id="listing-1" img="https://placekitten.com/300/200" firstPrice="$1,000,000" secondPrice="$99,000" bd="4" ba="2" sf="1,230" addressLine1="1234 Kuliana Pl, #300" addressLine2="Kipu, HI" /> */
+}
+
+var Card = function Card(_ref) {
+  var id = _ref.id,
+      img = _ref.img,
+      firstPrice = _ref.firstPrice,
+      secondPrice = _ref.secondPrice,
+      bd = _ref.bd,
+      ba = _ref.ba,
+      sf = _ref.sf,
+      addressLine1 = _ref.addressLine1,
+      addressLine2 = _ref.addressLine2;
+  return __jsx("article", {
+    id: id,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18
+    },
+    __self: this
+  }, __jsx("a", {
+    className: "listing listing-re",
+    title: "",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19
+    },
+    __self: this
+  }, __jsx("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21
+    },
+    __self: this
+  }, __jsx("img", {
+    src: img,
+    alt: "",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22
+    },
+    __self: this
+  })), __jsx("div", {
+    className: "flex",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25
+    },
+    __self: this
+  }, __jsx("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26
+    },
+    __self: this
+  }, "$", firstPrice), __jsx("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27
+    },
+    __self: this
+  }, __jsx("svg", {
+    className: "icon icon-svg",
+    viewBox: "0 0 32 32",
+    xmlns: "http://www.w3.org/2000/svg",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29
+    },
+    __self: this
+  }, __jsx("path", {
+    d: "M17.161 22.414l5.776-5.11 1.762 1.992-8.73 7.725-9.005-7.692 1.727-2.023 5.81 4.963V5.863h2.66v16.55z",
+    fill: "#869099",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34
+    },
+    __self: this
+  }))), __jsx("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 42
+    },
+    __self: this
+  }, "".concat(secondPrice, " < assessed"))), __jsx("div", {
+    className: "flex",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 45
+    },
+    __self: this
+  }, __jsx("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 46
+    },
+    __self: this
+  }, __jsx("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 47
+    },
+    __self: this
+  }, __jsx("svg", {
+    className: "icon icon-svg",
+    viewBox: "0 0 32 32",
+    xmlns: "http://www.w3.org/2000/svg",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48
+    },
+    __self: this
+  }, __jsx("path", {
+    d: "M9.196 14.603h15.523v.027h1.995v10.64h-3.99v-4.017H9.196v4.017h-3.99V6.65h3.99v7.953zm2.109-1.968v-2.66h4.655v2.66h-4.655z",
+    fill: "#869099",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 53
+    },
+    __self: this
+  }))), __jsx("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 59
+    },
+    __self: this
+  }, bd, "bd")), __jsx("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 61
+    },
+    __self: this
+  }, __jsx("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 62
+    },
+    __self: this
+  }, __jsx("svg", {
+    className: "icon icon-svg",
+    viewBox: "0 0 32 32",
+    xmlns: "http://www.w3.org/2000/svg",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 63
+    },
+    __self: this
+  }, __jsx("path", {
+    d: "M23.981 15.947H26.6v1.33a9.31 9.31 0 0 1-9.31 9.31h-2.66a9.31 9.31 0 0 1-9.31-9.31v-1.33h16.001V9.995a2.015 2.015 0 0 0-2.016-2.015h-.67c-.61 0-1.126.407-1.29.965a2.698 2.698 0 0 1 1.356 2.342H13.3a2.7 2.7 0 0 1 1.347-2.337 4.006 4.006 0 0 1 3.989-3.63h.67a4.675 4.675 0 0 1 4.675 4.675v5.952z",
+    fill: "#869099",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 68
+    },
+    __self: this
+  }))), __jsx("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 74
+    },
+    __self: this
+  }, ba, "ba")), __jsx("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 76
+    },
+    __self: this
+  }, __jsx("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 77
+    },
+    __self: this
+  }, __jsx("svg", {
+    className: "icon icon-svg",
+    viewBox: "0 0 32 32",
+    xmlns: "http://www.w3.org/2000/svg",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 78
+    },
+    __self: this
+  }, __jsx("path", {
+    d: "M13.748 21.276l-3.093-3.097v3.097h3.093zm12.852 5.32H10.655v.004h-5.32v-.004H5.32v-5.32h.015V5.32L26.6 26.596z",
+    fill: "#869099",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 83
+    },
+    __self: this
+  }))), __jsx("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 89
+    },
+    __self: this
+  }, sf, "sf"))), __jsx("address", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 93
+    },
+    __self: this
+  }, __jsx("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 94
+    },
+    __self: this
+  }, addressLine1), __jsx("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 95
+    },
+    __self: this
+  }, addressLine2))));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Card);
+
+/***/ }),
+
 /***/ "./components/Filter.js":
 /*!******************************!*\
   !*** ./components/Filter.js ***!
@@ -468,229 +704,45 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return List; });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _Card__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Card */ "./components/Card.js");
 var _jsxFileName = "C:\\Users\\dusty\\OneDrive\\Desktop\\realEstateSite\\components\\List.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
 
 function List() {
   return __jsx(react__WEBPACK_IMPORTED_MODULE_0__["Fragment"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 5
+      lineNumber: 6
     },
     __self: this
   }, __jsx("div", {
     id: "s__listings",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 6
+      lineNumber: 7
     },
     __self: this
-  }, __jsx("article", {
+  }, __jsx(_Card__WEBPACK_IMPORTED_MODULE_1__["default"], {
     id: "listing-1",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 9
-    },
-    __self: this
-  }, __jsx("a", {
-    className: "listing listing-re",
-    title: "",
+    img: "https://placekitten.com/300/200",
+    firstPrice: "1,000,000",
+    secondPrice: "99,000",
+    bd: "4",
+    ba: "2",
+    sf: "1,230",
+    addressLine1: "1234 Kuliana Pl, #300",
+    addressLine2: "Kipo, HI",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 10
     },
     __self: this
-  }, __jsx("div", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 12
-    },
-    __self: this
-  }, __jsx("img", {
-    src: "https://placekitten.com/300/200",
-    alt: "",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 13
-    },
-    __self: this
-  })), __jsx("div", {
-    className: "flex",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 16
-    },
-    __self: this
-  }, __jsx("div", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 17
-    },
-    __self: this
-  }, "$1,000,000"), __jsx("div", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 18
-    },
-    __self: this
-  }, __jsx("svg", {
-    className: "icon icon-svg",
-    viewBox: "0 0 32 32",
-    xmlns: "http://www.w3.org/2000/svg",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 20
-    },
-    __self: this
-  }, __jsx("path", {
-    d: "M17.161 22.414l5.776-5.11 1.762 1.992-8.73 7.725-9.005-7.692 1.727-2.023 5.81 4.963V5.863h2.66v16.55z",
-    fill: "#869099",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 20
-    },
-    __self: this
-  }))), __jsx("div", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 24
-    },
-    __self: this
-  }, "$99,000 < assessed")), __jsx("div", {
-    className: "flex",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 27
-    },
-    __self: this
-  }, __jsx("div", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 28
-    },
-    __self: this
-  }, __jsx("div", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 29
-    },
-    __self: this
-  }, __jsx("svg", {
-    className: "icon icon-svg",
-    viewBox: "0 0 32 32",
-    xmlns: "http://www.w3.org/2000/svg",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 30
-    },
-    __self: this
-  }, __jsx("path", {
-    d: "M9.196 14.603h15.523v.027h1.995v10.64h-3.99v-4.017H9.196v4.017h-3.99V6.65h3.99v7.953zm2.109-1.968v-2.66h4.655v2.66h-4.655z",
-    fill: "#869099",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 30
-    },
-    __self: this
-  }))), __jsx("div", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 32
-    },
-    __self: this
-  }, "4bd")), __jsx("div", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 34
-    },
-    __self: this
-  }, __jsx("div", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 35
-    },
-    __self: this
-  }, __jsx("svg", {
-    className: "icon icon-svg",
-    viewBox: "0 0 32 32",
-    xmlns: "http://www.w3.org/2000/svg",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 36
-    },
-    __self: this
-  }, __jsx("path", {
-    d: "M23.981 15.947H26.6v1.33a9.31 9.31 0 0 1-9.31 9.31h-2.66a9.31 9.31 0 0 1-9.31-9.31v-1.33h16.001V9.995a2.015 2.015 0 0 0-2.016-2.015h-.67c-.61 0-1.126.407-1.29.965a2.698 2.698 0 0 1 1.356 2.342H13.3a2.7 2.7 0 0 1 1.347-2.337 4.006 4.006 0 0 1 3.989-3.63h.67a4.675 4.675 0 0 1 4.675 4.675v5.952z",
-    fill: "#869099",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 36
-    },
-    __self: this
-  }))), __jsx("div", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 38
-    },
-    __self: this
-  }, "2ba")), __jsx("div", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 40
-    },
-    __self: this
-  }, __jsx("div", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 41
-    },
-    __self: this
-  }, __jsx("svg", {
-    className: "icon icon-svg",
-    viewBox: "0 0 32 32",
-    xmlns: "http://www.w3.org/2000/svg",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 42
-    },
-    __self: this
-  }, __jsx("path", {
-    d: "M13.748 21.276l-3.093-3.097v3.097h3.093zm12.852 5.32H10.655v.004h-5.32v-.004H5.32v-5.32h.015V5.32L26.6 26.596z",
-    fill: "#869099",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 42
-    },
-    __self: this
-  }))), __jsx("div", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 44
-    },
-    __self: this
-  }, "1,230sf"))), __jsx("address", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 48
-    },
-    __self: this
-  }, __jsx("div", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 49
-    },
-    __self: this
-  }, "1234 Kuliana Pl, #300"), __jsx("div", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 50
-    },
-    __self: this
-  }, "Kipo, HI")))), __jsx("article", {
+  }), __jsx("article", {
     id: "listing-2",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 55
+      lineNumber: 12
     },
     __self: this
   }, __jsx("a", {
@@ -698,13 +750,13 @@ function List() {
     title: "",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 56
+      lineNumber: 13
     },
     __self: this
   }, __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 58
+      lineNumber: 15
     },
     __self: this
   }, __jsx("img", {
@@ -712,26 +764,26 @@ function List() {
     alt: "",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 59
+      lineNumber: 16
     },
     __self: this
   })), __jsx("div", {
     className: "flex",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 62
+      lineNumber: 19
     },
     __self: this
   }, __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 63
+      lineNumber: 20
     },
     __self: this
   }, "$1,000,000"), __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 64
+      lineNumber: 21
     },
     __self: this
   }, __jsx("svg", {
@@ -740,7 +792,7 @@ function List() {
     xmlns: "http://www.w3.org/2000/svg",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 68
+      lineNumber: 25
     },
     __self: this
   }, __jsx("path", {
@@ -748,32 +800,32 @@ function List() {
     fill: "#869099",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 68
+      lineNumber: 25
     },
     __self: this
   }))), __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 70
+      lineNumber: 27
     },
     __self: this
   }, "$99,000 > assessed")), __jsx("div", {
     className: "flex",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 73
+      lineNumber: 30
     },
     __self: this
   }, __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 74
+      lineNumber: 31
     },
     __self: this
   }, __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 75
+      lineNumber: 32
     },
     __self: this
   }, __jsx("svg", {
@@ -782,7 +834,7 @@ function List() {
     xmlns: "http://www.w3.org/2000/svg",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 76
+      lineNumber: 33
     },
     __self: this
   }, __jsx("path", {
@@ -790,25 +842,25 @@ function List() {
     fill: "#869099",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 76
+      lineNumber: 33
     },
     __self: this
   }))), __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 78
+      lineNumber: 35
     },
     __self: this
   }, "4bd")), __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 80
+      lineNumber: 37
     },
     __self: this
   }, __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 81
+      lineNumber: 38
     },
     __self: this
   }, __jsx("svg", {
@@ -817,7 +869,7 @@ function List() {
     xmlns: "http://www.w3.org/2000/svg",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 82
+      lineNumber: 39
     },
     __self: this
   }, __jsx("path", {
@@ -825,25 +877,25 @@ function List() {
     fill: "#869099",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 82
+      lineNumber: 39
     },
     __self: this
   }))), __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 84
+      lineNumber: 41
     },
     __self: this
   }, "2ba")), __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 86
+      lineNumber: 43
     },
     __self: this
   }, __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 87
+      lineNumber: 44
     },
     __self: this
   }, __jsx("svg", {
@@ -852,7 +904,7 @@ function List() {
     xmlns: "http://www.w3.org/2000/svg",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 88
+      lineNumber: 45
     },
     __self: this
   }, __jsx("path", {
@@ -860,38 +912,38 @@ function List() {
     fill: "#869099",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 88
+      lineNumber: 45
     },
     __self: this
   }))), __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 90
+      lineNumber: 47
     },
     __self: this
   }, "1,230sf"))), __jsx("address", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 94
+      lineNumber: 51
     },
     __self: this
   }, __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 95
+      lineNumber: 52
     },
     __self: this
   }, "1234 Kuliana Pl, #300"), __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 96
+      lineNumber: 53
     },
     __self: this
   }, "Kipo, HI")))), __jsx("article", {
     id: "listing-3",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 101
+      lineNumber: 58
     },
     __self: this
   }, __jsx("a", {
@@ -899,13 +951,13 @@ function List() {
     title: "",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 102
+      lineNumber: 59
     },
     __self: this
   }, __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 104
+      lineNumber: 61
     },
     __self: this
   }, __jsx("img", {
@@ -913,26 +965,26 @@ function List() {
     alt: "",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 105
+      lineNumber: 62
     },
     __self: this
   })), __jsx("div", {
     className: "flex",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 108
+      lineNumber: 65
     },
     __self: this
   }, __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 109
+      lineNumber: 66
     },
     __self: this
   }, "$1,000,000"), __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 110
+      lineNumber: 67
     },
     __self: this
   }, __jsx("svg", {
@@ -941,7 +993,7 @@ function List() {
     xmlns: "http://www.w3.org/2000/svg",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 114
+      lineNumber: 71
     },
     __self: this
   }, __jsx("path", {
@@ -949,32 +1001,32 @@ function List() {
     fill: "#869099",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 114
+      lineNumber: 71
     },
     __self: this
   }))), __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 116
+      lineNumber: 73
     },
     __self: this
   }, "$99,000 > assessed")), __jsx("div", {
     className: "flex",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 119
+      lineNumber: 76
     },
     __self: this
   }, __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 120
+      lineNumber: 77
     },
     __self: this
   }, __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 121
+      lineNumber: 78
     },
     __self: this
   }, __jsx("svg", {
@@ -983,7 +1035,7 @@ function List() {
     xmlns: "http://www.w3.org/2000/svg",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 122
+      lineNumber: 79
     },
     __self: this
   }, __jsx("path", {
@@ -991,25 +1043,25 @@ function List() {
     fill: "#869099",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 122
+      lineNumber: 79
     },
     __self: this
   }))), __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 124
+      lineNumber: 81
     },
     __self: this
   }, "4bd")), __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 126
+      lineNumber: 83
     },
     __self: this
   }, __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 127
+      lineNumber: 84
     },
     __self: this
   }, __jsx("svg", {
@@ -1018,7 +1070,7 @@ function List() {
     xmlns: "http://www.w3.org/2000/svg",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 128
+      lineNumber: 85
     },
     __self: this
   }, __jsx("path", {
@@ -1026,25 +1078,25 @@ function List() {
     fill: "#869099",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 128
+      lineNumber: 85
     },
     __self: this
   }))), __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 130
+      lineNumber: 87
     },
     __self: this
   }, "2ba")), __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 132
+      lineNumber: 89
     },
     __self: this
   }, __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 133
+      lineNumber: 90
     },
     __self: this
   }, __jsx("svg", {
@@ -1053,7 +1105,7 @@ function List() {
     xmlns: "http://www.w3.org/2000/svg",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 134
+      lineNumber: 91
     },
     __self: this
   }, __jsx("path", {
@@ -1061,38 +1113,38 @@ function List() {
     fill: "#869099",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 134
+      lineNumber: 91
     },
     __self: this
   }))), __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 136
+      lineNumber: 93
     },
     __self: this
   }, "1,230sf"))), __jsx("address", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 140
+      lineNumber: 97
     },
     __self: this
   }, __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 141
+      lineNumber: 98
     },
     __self: this
   }, "1234 Kuliana Pl, #300"), __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 142
+      lineNumber: 99
     },
     __self: this
   }, "Kipo, HI")))), __jsx("article", {
     id: "listing-4",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 147
+      lineNumber: 104
     },
     __self: this
   }, __jsx("a", {
@@ -1100,13 +1152,13 @@ function List() {
     title: "",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 148
+      lineNumber: 105
     },
     __self: this
   }, __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 150
+      lineNumber: 107
     },
     __self: this
   }, __jsx("img", {
@@ -1114,26 +1166,26 @@ function List() {
     alt: "",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 151
+      lineNumber: 108
     },
     __self: this
   })), __jsx("div", {
     className: "flex",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 154
+      lineNumber: 111
     },
     __self: this
   }, __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 155
+      lineNumber: 112
     },
     __self: this
   }, "$1,000,000"), __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 156
+      lineNumber: 113
     },
     __self: this
   }, __jsx("svg", {
@@ -1142,7 +1194,7 @@ function List() {
     xmlns: "http://www.w3.org/2000/svg",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 160
+      lineNumber: 117
     },
     __self: this
   }, __jsx("path", {
@@ -1150,32 +1202,32 @@ function List() {
     fill: "#869099",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 160
+      lineNumber: 117
     },
     __self: this
   }))), __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 162
+      lineNumber: 119
     },
     __self: this
   }, "$99,000 > assessed")), __jsx("div", {
     className: "flex",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 165
+      lineNumber: 122
     },
     __self: this
   }, __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 166
+      lineNumber: 123
     },
     __self: this
   }, __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 167
+      lineNumber: 124
     },
     __self: this
   }, __jsx("svg", {
@@ -1184,7 +1236,7 @@ function List() {
     xmlns: "http://www.w3.org/2000/svg",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 168
+      lineNumber: 125
     },
     __self: this
   }, __jsx("path", {
@@ -1192,25 +1244,25 @@ function List() {
     fill: "#869099",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 168
+      lineNumber: 125
     },
     __self: this
   }))), __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 170
+      lineNumber: 127
     },
     __self: this
   }, "4bd")), __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 172
+      lineNumber: 129
     },
     __self: this
   }, __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 173
+      lineNumber: 130
     },
     __self: this
   }, __jsx("svg", {
@@ -1219,7 +1271,7 @@ function List() {
     xmlns: "http://www.w3.org/2000/svg",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 174
+      lineNumber: 131
     },
     __self: this
   }, __jsx("path", {
@@ -1227,25 +1279,25 @@ function List() {
     fill: "#869099",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 174
+      lineNumber: 131
     },
     __self: this
   }))), __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 176
+      lineNumber: 133
     },
     __self: this
   }, "2ba")), __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 178
+      lineNumber: 135
     },
     __self: this
   }, __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 179
+      lineNumber: 136
     },
     __self: this
   }, __jsx("svg", {
@@ -1254,7 +1306,7 @@ function List() {
     xmlns: "http://www.w3.org/2000/svg",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 180
+      lineNumber: 137
     },
     __self: this
   }, __jsx("path", {
@@ -1262,38 +1314,38 @@ function List() {
     fill: "#869099",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 180
+      lineNumber: 137
     },
     __self: this
   }))), __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 182
+      lineNumber: 139
     },
     __self: this
   }, "1,230sf"))), __jsx("address", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 186
+      lineNumber: 143
     },
     __self: this
   }, __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 187
+      lineNumber: 144
     },
     __self: this
   }, "1234 Kuliana Pl, #300"), __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 188
+      lineNumber: 145
     },
     __self: this
   }, "Kipo, HI")))), __jsx("article", {
     id: "listing-5",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 193
+      lineNumber: 150
     },
     __self: this
   }, __jsx("a", {
@@ -1301,13 +1353,13 @@ function List() {
     title: "",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 194
+      lineNumber: 151
     },
     __self: this
   }, __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 196
+      lineNumber: 153
     },
     __self: this
   }, __jsx("img", {
@@ -1315,26 +1367,26 @@ function List() {
     alt: "",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 197
+      lineNumber: 154
     },
     __self: this
   })), __jsx("div", {
     className: "flex",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 200
+      lineNumber: 157
     },
     __self: this
   }, __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 201
+      lineNumber: 158
     },
     __self: this
   }, "$1,000,000"), __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 202
+      lineNumber: 159
     },
     __self: this
   }, __jsx("svg", {
@@ -1343,7 +1395,7 @@ function List() {
     xmlns: "http://www.w3.org/2000/svg",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 206
+      lineNumber: 163
     },
     __self: this
   }, __jsx("path", {
@@ -1351,32 +1403,32 @@ function List() {
     fill: "#869099",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 206
+      lineNumber: 163
     },
     __self: this
   }))), __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 208
+      lineNumber: 165
     },
     __self: this
   }, "$99,000 > assessed")), __jsx("div", {
     className: "flex",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 211
+      lineNumber: 168
     },
     __self: this
   }, __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 212
+      lineNumber: 169
     },
     __self: this
   }, __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 213
+      lineNumber: 170
     },
     __self: this
   }, __jsx("svg", {
@@ -1385,7 +1437,7 @@ function List() {
     xmlns: "http://www.w3.org/2000/svg",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 214
+      lineNumber: 171
     },
     __self: this
   }, __jsx("path", {
@@ -1393,25 +1445,25 @@ function List() {
     fill: "#869099",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 214
+      lineNumber: 171
     },
     __self: this
   }))), __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 216
+      lineNumber: 173
     },
     __self: this
   }, "4bd")), __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 218
+      lineNumber: 175
     },
     __self: this
   }, __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 219
+      lineNumber: 176
     },
     __self: this
   }, __jsx("svg", {
@@ -1420,7 +1472,7 @@ function List() {
     xmlns: "http://www.w3.org/2000/svg",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 220
+      lineNumber: 177
     },
     __self: this
   }, __jsx("path", {
@@ -1428,25 +1480,25 @@ function List() {
     fill: "#869099",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 220
+      lineNumber: 177
     },
     __self: this
   }))), __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 222
+      lineNumber: 179
     },
     __self: this
   }, "2ba")), __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 224
+      lineNumber: 181
     },
     __self: this
   }, __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 225
+      lineNumber: 182
     },
     __self: this
   }, __jsx("svg", {
@@ -1455,7 +1507,7 @@ function List() {
     xmlns: "http://www.w3.org/2000/svg",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 226
+      lineNumber: 183
     },
     __self: this
   }, __jsx("path", {
@@ -1463,38 +1515,38 @@ function List() {
     fill: "#869099",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 226
+      lineNumber: 183
     },
     __self: this
   }))), __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 228
+      lineNumber: 185
     },
     __self: this
   }, "1,230sf"))), __jsx("address", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 232
+      lineNumber: 189
     },
     __self: this
   }, __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 233
+      lineNumber: 190
     },
     __self: this
   }, "1234 Kuliana Pl, #300"), __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 234
+      lineNumber: 191
     },
     __self: this
   }, "Kipo, HI")))), __jsx("article", {
     id: "listing-6",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 239
+      lineNumber: 196
     },
     __self: this
   }, __jsx("a", {
@@ -1502,13 +1554,13 @@ function List() {
     title: "",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 240
+      lineNumber: 197
     },
     __self: this
   }, __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 242
+      lineNumber: 199
     },
     __self: this
   }, __jsx("img", {
@@ -1516,26 +1568,26 @@ function List() {
     alt: "",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 243
+      lineNumber: 200
     },
     __self: this
   })), __jsx("div", {
     className: "flex",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 246
+      lineNumber: 203
     },
     __self: this
   }, __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 247
+      lineNumber: 204
     },
     __self: this
   }, "$1,000,000"), __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 248
+      lineNumber: 205
     },
     __self: this
   }, __jsx("svg", {
@@ -1544,7 +1596,7 @@ function List() {
     xmlns: "http://www.w3.org/2000/svg",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 252
+      lineNumber: 209
     },
     __self: this
   }, __jsx("path", {
@@ -1552,32 +1604,32 @@ function List() {
     fill: "#869099",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 252
+      lineNumber: 209
     },
     __self: this
   }))), __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 254
+      lineNumber: 211
     },
     __self: this
   }, "$99,000 > assessed")), __jsx("div", {
     className: "flex",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 257
+      lineNumber: 214
     },
     __self: this
   }, __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 258
+      lineNumber: 215
     },
     __self: this
   }, __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 259
+      lineNumber: 216
     },
     __self: this
   }, __jsx("svg", {
@@ -1586,7 +1638,7 @@ function List() {
     xmlns: "http://www.w3.org/2000/svg",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 260
+      lineNumber: 217
     },
     __self: this
   }, __jsx("path", {
@@ -1594,25 +1646,25 @@ function List() {
     fill: "#869099",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 260
+      lineNumber: 217
     },
     __self: this
   }))), __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 262
+      lineNumber: 219
     },
     __self: this
   }, "4bd")), __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 264
+      lineNumber: 221
     },
     __self: this
   }, __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 265
+      lineNumber: 222
     },
     __self: this
   }, __jsx("svg", {
@@ -1621,7 +1673,7 @@ function List() {
     xmlns: "http://www.w3.org/2000/svg",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 266
+      lineNumber: 223
     },
     __self: this
   }, __jsx("path", {
@@ -1629,25 +1681,25 @@ function List() {
     fill: "#869099",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 266
+      lineNumber: 223
     },
     __self: this
   }))), __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 268
+      lineNumber: 225
     },
     __self: this
   }, "2ba")), __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 270
+      lineNumber: 227
     },
     __self: this
   }, __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 271
+      lineNumber: 228
     },
     __self: this
   }, __jsx("svg", {
@@ -1656,7 +1708,7 @@ function List() {
     xmlns: "http://www.w3.org/2000/svg",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 272
+      lineNumber: 229
     },
     __self: this
   }, __jsx("path", {
@@ -1664,38 +1716,38 @@ function List() {
     fill: "#869099",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 272
+      lineNumber: 229
     },
     __self: this
   }))), __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 274
+      lineNumber: 231
     },
     __self: this
   }, "1,230sf"))), __jsx("address", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 278
+      lineNumber: 235
     },
     __self: this
   }, __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 279
+      lineNumber: 236
     },
     __self: this
   }, "1234 Kuliana Pl, #300"), __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 280
+      lineNumber: 237
     },
     __self: this
   }, "Kipo, HI")))), __jsx("article", {
     id: "listing-7",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 285
+      lineNumber: 242
     },
     __self: this
   }, __jsx("a", {
@@ -1703,13 +1755,13 @@ function List() {
     title: "",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 286
+      lineNumber: 243
     },
     __self: this
   }, __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 288
+      lineNumber: 245
     },
     __self: this
   }, __jsx("img", {
@@ -1717,26 +1769,26 @@ function List() {
     alt: "",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 289
+      lineNumber: 246
     },
     __self: this
   })), __jsx("div", {
     className: "flex",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 292
+      lineNumber: 249
     },
     __self: this
   }, __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 293
+      lineNumber: 250
     },
     __self: this
   }, "$1,000,000"), __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 294
+      lineNumber: 251
     },
     __self: this
   }, __jsx("svg", {
@@ -1745,7 +1797,7 @@ function List() {
     xmlns: "http://www.w3.org/2000/svg",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 298
+      lineNumber: 255
     },
     __self: this
   }, __jsx("path", {
@@ -1753,32 +1805,32 @@ function List() {
     fill: "#869099",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 298
+      lineNumber: 255
     },
     __self: this
   }))), __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 300
+      lineNumber: 257
     },
     __self: this
   }, "$99,000 > assessed")), __jsx("div", {
     className: "flex",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 303
+      lineNumber: 260
     },
     __self: this
   }, __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 304
+      lineNumber: 261
     },
     __self: this
   }, __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 305
+      lineNumber: 262
     },
     __self: this
   }, __jsx("svg", {
@@ -1787,7 +1839,7 @@ function List() {
     xmlns: "http://www.w3.org/2000/svg",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 306
+      lineNumber: 263
     },
     __self: this
   }, __jsx("path", {
@@ -1795,25 +1847,25 @@ function List() {
     fill: "#869099",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 306
+      lineNumber: 263
     },
     __self: this
   }))), __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 308
+      lineNumber: 265
     },
     __self: this
   }, "4bd")), __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 310
+      lineNumber: 267
     },
     __self: this
   }, __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 311
+      lineNumber: 268
     },
     __self: this
   }, __jsx("svg", {
@@ -1822,7 +1874,7 @@ function List() {
     xmlns: "http://www.w3.org/2000/svg",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 312
+      lineNumber: 269
     },
     __self: this
   }, __jsx("path", {
@@ -1830,25 +1882,25 @@ function List() {
     fill: "#869099",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 312
+      lineNumber: 269
     },
     __self: this
   }))), __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 314
+      lineNumber: 271
     },
     __self: this
   }, "2ba")), __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 316
+      lineNumber: 273
     },
     __self: this
   }, __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 317
+      lineNumber: 274
     },
     __self: this
   }, __jsx("svg", {
@@ -1857,7 +1909,7 @@ function List() {
     xmlns: "http://www.w3.org/2000/svg",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 318
+      lineNumber: 275
     },
     __self: this
   }, __jsx("path", {
@@ -1865,38 +1917,38 @@ function List() {
     fill: "#869099",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 318
+      lineNumber: 275
     },
     __self: this
   }))), __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 320
+      lineNumber: 277
     },
     __self: this
   }, "1,230sf"))), __jsx("address", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 324
+      lineNumber: 281
     },
     __self: this
   }, __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 325
+      lineNumber: 282
     },
     __self: this
   }, "1234 Kuliana Pl, #300"), __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 326
+      lineNumber: 283
     },
     __self: this
   }, "Kipo, HI")))), __jsx("article", {
     id: "listing-8",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 331
+      lineNumber: 288
     },
     __self: this
   }, __jsx("a", {
@@ -1904,13 +1956,13 @@ function List() {
     title: "",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 332
+      lineNumber: 289
     },
     __self: this
   }, __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 334
+      lineNumber: 291
     },
     __self: this
   }, __jsx("img", {
@@ -1918,26 +1970,26 @@ function List() {
     alt: "",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 335
+      lineNumber: 292
     },
     __self: this
   })), __jsx("div", {
     className: "flex",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 338
+      lineNumber: 295
     },
     __self: this
   }, __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 339
+      lineNumber: 296
     },
     __self: this
   }, "$1,000,000"), __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 340
+      lineNumber: 297
     },
     __self: this
   }, __jsx("svg", {
@@ -1946,7 +1998,7 @@ function List() {
     xmlns: "http://www.w3.org/2000/svg",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 344
+      lineNumber: 301
     },
     __self: this
   }, __jsx("path", {
@@ -1954,32 +2006,32 @@ function List() {
     fill: "#869099",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 344
+      lineNumber: 301
     },
     __self: this
   }))), __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 346
+      lineNumber: 303
     },
     __self: this
   }, "$99,000 > assessed")), __jsx("div", {
     className: "flex",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 349
+      lineNumber: 306
     },
     __self: this
   }, __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 350
+      lineNumber: 307
     },
     __self: this
   }, __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 351
+      lineNumber: 308
     },
     __self: this
   }, __jsx("svg", {
@@ -1988,7 +2040,7 @@ function List() {
     xmlns: "http://www.w3.org/2000/svg",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 352
+      lineNumber: 309
     },
     __self: this
   }, __jsx("path", {
@@ -1996,25 +2048,25 @@ function List() {
     fill: "#869099",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 352
+      lineNumber: 309
     },
     __self: this
   }))), __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 354
+      lineNumber: 311
     },
     __self: this
   }, "4bd")), __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 356
+      lineNumber: 313
     },
     __self: this
   }, __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 357
+      lineNumber: 314
     },
     __self: this
   }, __jsx("svg", {
@@ -2023,7 +2075,7 @@ function List() {
     xmlns: "http://www.w3.org/2000/svg",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 358
+      lineNumber: 315
     },
     __self: this
   }, __jsx("path", {
@@ -2031,25 +2083,25 @@ function List() {
     fill: "#869099",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 358
+      lineNumber: 315
     },
     __self: this
   }))), __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 360
+      lineNumber: 317
     },
     __self: this
   }, "2ba")), __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 362
+      lineNumber: 319
     },
     __self: this
   }, __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 363
+      lineNumber: 320
     },
     __self: this
   }, __jsx("svg", {
@@ -2058,7 +2110,7 @@ function List() {
     xmlns: "http://www.w3.org/2000/svg",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 364
+      lineNumber: 321
     },
     __self: this
   }, __jsx("path", {
@@ -2066,38 +2118,38 @@ function List() {
     fill: "#869099",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 364
+      lineNumber: 321
     },
     __self: this
   }))), __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 366
+      lineNumber: 323
     },
     __self: this
   }, "1,230sf"))), __jsx("address", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 370
+      lineNumber: 327
     },
     __self: this
   }, __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 371
+      lineNumber: 328
     },
     __self: this
   }, "1234 Kuliana Pl, #300"), __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 372
+      lineNumber: 329
     },
     __self: this
   }, "Kipo, HI")))), __jsx("article", {
     id: "listing-9",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 377
+      lineNumber: 334
     },
     __self: this
   }, __jsx("a", {
@@ -2105,13 +2157,13 @@ function List() {
     title: "",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 378
+      lineNumber: 335
     },
     __self: this
   }, __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 380
+      lineNumber: 337
     },
     __self: this
   }, __jsx("img", {
@@ -2119,26 +2171,26 @@ function List() {
     alt: "",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 381
+      lineNumber: 338
     },
     __self: this
   })), __jsx("div", {
     className: "flex",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 384
+      lineNumber: 341
     },
     __self: this
   }, __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 385
+      lineNumber: 342
     },
     __self: this
   }, "$1,000,000"), __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 386
+      lineNumber: 343
     },
     __self: this
   }, __jsx("svg", {
@@ -2147,7 +2199,7 @@ function List() {
     xmlns: "http://www.w3.org/2000/svg",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 390
+      lineNumber: 347
     },
     __self: this
   }, __jsx("path", {
@@ -2155,32 +2207,32 @@ function List() {
     fill: "#869099",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 390
+      lineNumber: 347
     },
     __self: this
   }))), __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 392
+      lineNumber: 349
     },
     __self: this
   }, "$99,000 > assessed")), __jsx("div", {
     className: "flex",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 395
+      lineNumber: 352
     },
     __self: this
   }, __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 396
+      lineNumber: 353
     },
     __self: this
   }, __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 397
+      lineNumber: 354
     },
     __self: this
   }, __jsx("svg", {
@@ -2189,7 +2241,7 @@ function List() {
     xmlns: "http://www.w3.org/2000/svg",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 398
+      lineNumber: 355
     },
     __self: this
   }, __jsx("path", {
@@ -2197,25 +2249,25 @@ function List() {
     fill: "#869099",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 398
+      lineNumber: 355
     },
     __self: this
   }))), __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 400
+      lineNumber: 357
     },
     __self: this
   }, "4bd")), __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 402
+      lineNumber: 359
     },
     __self: this
   }, __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 403
+      lineNumber: 360
     },
     __self: this
   }, __jsx("svg", {
@@ -2224,7 +2276,7 @@ function List() {
     xmlns: "http://www.w3.org/2000/svg",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 404
+      lineNumber: 361
     },
     __self: this
   }, __jsx("path", {
@@ -2232,25 +2284,25 @@ function List() {
     fill: "#869099",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 404
+      lineNumber: 361
     },
     __self: this
   }))), __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 406
+      lineNumber: 363
     },
     __self: this
   }, "2ba")), __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 408
+      lineNumber: 365
     },
     __self: this
   }, __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 409
+      lineNumber: 366
     },
     __self: this
   }, __jsx("svg", {
@@ -2259,7 +2311,7 @@ function List() {
     xmlns: "http://www.w3.org/2000/svg",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 410
+      lineNumber: 367
     },
     __self: this
   }, __jsx("path", {
@@ -2267,38 +2319,38 @@ function List() {
     fill: "#869099",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 410
+      lineNumber: 367
     },
     __self: this
   }))), __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 412
+      lineNumber: 369
     },
     __self: this
   }, "1,230sf"))), __jsx("address", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 416
+      lineNumber: 373
     },
     __self: this
   }, __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 417
+      lineNumber: 374
     },
     __self: this
   }, "1234 Kuliana Pl, #300"), __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 418
+      lineNumber: 375
     },
     __self: this
   }, "Kipo, HI")))), __jsx("article", {
     id: "listing-10",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 423
+      lineNumber: 380
     },
     __self: this
   }, __jsx("a", {
@@ -2306,13 +2358,13 @@ function List() {
     title: "",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 424
+      lineNumber: 381
     },
     __self: this
   }, __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 426
+      lineNumber: 383
     },
     __self: this
   }, __jsx("img", {
@@ -2320,26 +2372,26 @@ function List() {
     alt: "",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 427
+      lineNumber: 384
     },
     __self: this
   })), __jsx("div", {
     className: "flex",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 430
+      lineNumber: 387
     },
     __self: this
   }, __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 431
+      lineNumber: 388
     },
     __self: this
   }, "$1,000,000"), __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 432
+      lineNumber: 389
     },
     __self: this
   }, __jsx("svg", {
@@ -2348,7 +2400,7 @@ function List() {
     xmlns: "http://www.w3.org/2000/svg",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 436
+      lineNumber: 393
     },
     __self: this
   }, __jsx("path", {
@@ -2356,32 +2408,32 @@ function List() {
     fill: "#869099",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 436
+      lineNumber: 393
     },
     __self: this
   }))), __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 438
+      lineNumber: 395
     },
     __self: this
   }, "$99,000 > assessed")), __jsx("div", {
     className: "flex",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 441
+      lineNumber: 398
     },
     __self: this
   }, __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 442
+      lineNumber: 399
     },
     __self: this
   }, __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 443
+      lineNumber: 400
     },
     __self: this
   }, __jsx("svg", {
@@ -2390,7 +2442,7 @@ function List() {
     xmlns: "http://www.w3.org/2000/svg",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 444
+      lineNumber: 401
     },
     __self: this
   }, __jsx("path", {
@@ -2398,25 +2450,25 @@ function List() {
     fill: "#869099",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 444
+      lineNumber: 401
     },
     __self: this
   }))), __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 446
+      lineNumber: 403
     },
     __self: this
   }, "4bd")), __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 448
+      lineNumber: 405
     },
     __self: this
   }, __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 449
+      lineNumber: 406
     },
     __self: this
   }, __jsx("svg", {
@@ -2425,7 +2477,7 @@ function List() {
     xmlns: "http://www.w3.org/2000/svg",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 450
+      lineNumber: 407
     },
     __self: this
   }, __jsx("path", {
@@ -2433,25 +2485,25 @@ function List() {
     fill: "#869099",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 450
+      lineNumber: 407
     },
     __self: this
   }))), __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 452
+      lineNumber: 409
     },
     __self: this
   }, "2ba")), __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 454
+      lineNumber: 411
     },
     __self: this
   }, __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 455
+      lineNumber: 412
     },
     __self: this
   }, __jsx("svg", {
@@ -2460,7 +2512,7 @@ function List() {
     xmlns: "http://www.w3.org/2000/svg",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 456
+      lineNumber: 413
     },
     __self: this
   }, __jsx("path", {
@@ -2468,31 +2520,31 @@ function List() {
     fill: "#869099",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 456
+      lineNumber: 413
     },
     __self: this
   }))), __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 458
+      lineNumber: 415
     },
     __self: this
   }, "1,230sf"))), __jsx("address", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 462
+      lineNumber: 419
     },
     __self: this
   }, __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 463
+      lineNumber: 420
     },
     __self: this
   }, "1234 Kuliana Pl, #300"), __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 464
+      lineNumber: 421
     },
     __self: this
   }, "Kipo, HI"))))));

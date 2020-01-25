@@ -1,60 +1,35 @@
 import React, { Fragment } from "react";
-import Head from "next/head";
 import Filter from "../components/Filter";
 import List from "../components/List";
+import Layout from "../components/Layout";
 
 export default function Index() {
   return (
-    <Fragment>
-      <Head>
-        <meta charSet="UTF-8" />
-        <title></title>
-        <meta name="description" content="" />
-        <meta name="author" content="Nalula" />
-        <meta
-          name="viewport"
-          content="width=device-width, initial-scale=1.0, maximum-scale=5.0, viewport-fit=cover, minimal-ui"
-        />
-      </Head>
-      <header>
-        <nav className="flex">
-          <div className="brand">
-            <a href="/" className="logo">
-              NALULA
-            </a>
-          </div>
-          <div id="search-location">
-            <h1>Kipo, HI</h1>
-          </div>
-          <ul className="nav">
-            <li>Buy</li>
-          </ul>
-        </nav>
-      </header>
-      {/* search */}
-      <main id="s">
-        {/* map */}
-        <section>
-          <div id="s__map"></div>
-        </section>
-        {/* list */}
-        <section>
-          <div id="s__list">
-            <header>
-              <h2>Kipo Real Estate</h2>
-              <h3>22 Homes for sale in Kipo, HI</h3>
-            </header>
-            <Filter />
-            <List />
-          </div>
-          {/* pagination */}
-          <div id="s__pag"></div>
-        </section>
-      </main>
-      {/* detail */}
-      <main id="d"></main>
-      <footer></footer>
-      <style globaljsx="true">{`
+    <Layout>
+      <Fragment>
+        {/* search */}
+        <main id="s">
+          {/* map */}
+          <section>
+            <div id="s__map"></div>
+          </section>
+          {/* list */}
+          <section>
+            <div id="s__list">
+              <header>
+                <h2>Kipo Real Estate</h2>
+                <h3>22 Homes for sale in Kipo, HI</h3>
+              </header>
+              <Filter />
+              <List />
+            </div>
+            {/* pagination */}
+            <div id="s__pag"></div>
+          </section>
+        </main>
+        {/* detail */}
+        <main id="d"></main>
+        <style globaljsx="true">{`
 
 *,
 *::before,
@@ -351,6 +326,7 @@ template {
 
 
 `}</style>
-    </Fragment>
+      </Fragment>
+    </Layout>
   );
 }

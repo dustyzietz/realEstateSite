@@ -93,10 +93,10 @@ module.exports =
 /************************************************************************/
 /******/ ({
 
-/***/ "./pages/Filter.js":
-/*!*************************!*\
-  !*** ./pages/Filter.js ***!
-  \*************************/
+/***/ "./components/Filter.js":
+/*!******************************!*\
+  !*** ./components/Filter.js ***!
+  \******************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -105,7 +105,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Filter; });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _jsxFileName = "C:\\Users\\dusty\\OneDrive\\Desktop\\realEstateSite\\pages\\Filter.js";
+var _jsxFileName = "C:\\Users\\dusty\\OneDrive\\Desktop\\realEstateSite\\realEstateSite\\components\\Filter.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 function Filter() {
@@ -483,10 +483,10 @@ function Filter() {
 
 /***/ }),
 
-/***/ "./pages/List.js":
-/*!***********************!*\
-  !*** ./pages/List.js ***!
-  \***********************/
+/***/ "./components/List.js":
+/*!****************************!*\
+  !*** ./components/List.js ***!
+  \****************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -495,7 +495,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return List; });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _jsxFileName = "C:\\Users\\dusty\\OneDrive\\Desktop\\realEstateSite\\pages\\List.js";
+var _jsxFileName = "C:\\Users\\dusty\\OneDrive\\Desktop\\realEstateSite\\realEstateSite\\components\\List.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 function List() {
@@ -2541,9 +2541,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/head */ "next/head");
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _Filter__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Filter */ "./pages/Filter.js");
-/* harmony import */ var _List__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./List */ "./pages/List.js");
-var _jsxFileName = "C:\\Users\\dusty\\OneDrive\\Desktop\\realEstateSite\\pages\\index.js";
+/* harmony import */ var _components_Filter__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Filter */ "./components/Filter.js");
+/* harmony import */ var _components_List__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/List */ "./components/List.js");
+var _jsxFileName = "C:\\Users\\dusty\\OneDrive\\Desktop\\realEstateSite\\realEstateSite\\pages\\index.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -2704,13 +2704,13 @@ function Index() {
       lineNumber: 45
     },
     __self: this
-  }, "22 Homes for sale in Kipo, HI")), __jsx(_Filter__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  }, "22 Homes for sale in Kipo, HI")), __jsx(_components_Filter__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 47
     },
     __self: this
-  }), __jsx(_List__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  }), __jsx(_components_List__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 48
@@ -3051,7 +3051,7 @@ template {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\dusty\OneDrive\Desktop\realEstateSite\pages\index.js */"./pages/index.js");
+module.exports = __webpack_require__(/*! C:\Users\dusty\OneDrive\Desktop\realEstateSite\realEstateSite\pages\index.js */"./pages/index.js");
 
 
 /***/ }),

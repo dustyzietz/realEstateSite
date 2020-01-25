@@ -1,7 +1,7 @@
 import React, { Fragment } from "react";
 import Head from "next/head";
-import Filter from "./Filter";
-import List from "./List";
+import Filter from "../components/Filter";
+import List from "../components/List";
 
 export default function Index() {
   return (

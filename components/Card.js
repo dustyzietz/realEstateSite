@@ -1,18 +1,20 @@
 import React from "react";
 
 {
-  /* <Card  id="listing-1" img="https://placekitten.com/300/200" firstPrice="$1,000,000" secondPrice="$99,000" bd="4" ba="2" sf="1,230" addressLine1="1234 Kuliana Pl, #300" addressLine2="Kipu, HI" /> */
+  /* <Card id="listing-1"  img="https://placekitten.com/300/200" firstPrice="$1,000,000" secondPrice="99,000" bd="4" ba="2" sf="1,230" addressLine1="1234 Kuliana Pl, #300" addressLine2="Kipu, HI" /> */
 }
 const Card = ({
-  id,
-  img,
-  firstPrice,
-  secondPrice,
-  bd,
-  ba,
-  sf,
-  addressLine1,
-  addressLine2
+  listing: {
+    id,
+    img,
+    firstPrice,
+    secondPrice,
+    bd,
+    ba,
+    sf,
+    addressLine1,
+    addressLine2
+  }
 }) => {
   return (
     <article id={id}>

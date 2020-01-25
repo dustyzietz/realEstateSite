@@ -12,7 +12,7 @@ export const listingResults = [
   },
   {
     id: "2",
-    img: "https://placekitten.com/300/200",
+    img: "https://picsum.photos/id/1/300/200",
     firstPrice: "1,000,000",
     secondPrice: "99,000",
     bd: "4",
@@ -23,7 +23,7 @@ export const listingResults = [
   },
   {
     id: "3",
-    img: "https://placekitten.com/300/200",
+    img: "https://picsum.photos/id/2/300/200",
     firstPrice: "1,000,000",
     secondPrice: "99,000",
     bd: "4",
@@ -34,7 +34,7 @@ export const listingResults = [
   },
   {
     id: "4",
-    img: "https://placekitten.com/300/200",
+    img: "https://picsum.photos/id/3/300/200",
     firstPrice: "1,000,000",
     secondPrice: "99,000",
     bd: "4",
@@ -45,7 +45,7 @@ export const listingResults = [
   },
   {
     id: "5",
-    img: "https://placekitten.com/300/200",
+    img: "https://picsum.photos/id/4/300/200",
     firstPrice: "1,000,000",
     secondPrice: "99,000",
     bd: "4",
@@ -56,7 +56,7 @@ export const listingResults = [
   },
   {
     id: "6",
-    img: "https://placekitten.com/300/200",
+    img: "https://picsum.photos/id/5/300/200",
     firstPrice: "1,000,000",
     secondPrice: "99,000",
     bd: "4",
@@ -67,7 +67,7 @@ export const listingResults = [
   },
   {
     id: "7",
-    img: "https://placekitten.com/300/200",
+    img: "https://picsum.photos/id/6/300/200",
     firstPrice: "1,000,000",
     secondPrice: "99,000",
     bd: "4",
@@ -78,7 +78,7 @@ export const listingResults = [
   },
   {
     id: "8",
-    img: "https://placekitten.com/300/200",
+    img: "https://picsum.photos/id/7/300/200",
     firstPrice: "1,000,000",
     secondPrice: "99,000",
     bd: "4",
@@ -89,7 +89,7 @@ export const listingResults = [
   },
   {
     id: "9",
-    img: "https://placekitten.com/300/200",
+    img: "https://picsum.photos/id/8/300/200",
     firstPrice: "1,000,000",
     secondPrice: "99,000",
     bd: "4",
@@ -100,7 +100,7 @@ export const listingResults = [
   },
   {
     id: "10",
-    img: "https://placekitten.com/300/200",
+    img: "https://picsum.photos/id/9/300/200",
     firstPrice: "1,000,000",
     secondPrice: "99,000",
     bd: "4",

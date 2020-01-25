@@ -4422,7 +4422,7 @@ var listingResults = [{
   addressLine2: "Kipu, HI"
 }, {
   id: "2",
-  img: "https://placekitten.com/300/200",
+  img: "https://picsum.photos/id/1/300/200",
   firstPrice: "1,000,000",
   secondPrice: "99,000",
   bd: "4",
@@ -4432,7 +4432,7 @@ var listingResults = [{
   addressLine2: "Kipu, HI"
 }, {
   id: "3",
-  img: "https://placekitten.com/300/200",
+  img: "https://picsum.photos/id/2/300/200",
   firstPrice: "1,000,000",
   secondPrice: "99,000",
   bd: "4",
@@ -4442,7 +4442,7 @@ var listingResults = [{
   addressLine2: "Kipu, HI"
 }, {
   id: "4",
-  img: "https://placekitten.com/300/200",
+  img: "https://picsum.photos/id/3/300/200",
   firstPrice: "1,000,000",
   secondPrice: "99,000",
   bd: "4",
@@ -4452,7 +4452,7 @@ var listingResults = [{
   addressLine2: "Kipu, HI"
 }, {
   id: "5",
-  img: "https://placekitten.com/300/200",
+  img: "https://picsum.photos/id/4/300/200",
   firstPrice: "1,000,000",
   secondPrice: "99,000",
   bd: "4",
@@ -4462,7 +4462,7 @@ var listingResults = [{
   addressLine2: "Kipu, HI"
 }, {
   id: "6",
-  img: "https://placekitten.com/300/200",
+  img: "https://picsum.photos/id/5/300/200",
   firstPrice: "1,000,000",
   secondPrice: "99,000",
   bd: "4",
@@ -4472,7 +4472,7 @@ var listingResults = [{
   addressLine2: "Kipu, HI"
 }, {
   id: "7",
-  img: "https://placekitten.com/300/200",
+  img: "https://picsum.photos/id/6/300/200",
   firstPrice: "1,000,000",
   secondPrice: "99,000",
   bd: "4",
@@ -4482,7 +4482,7 @@ var listingResults = [{
   addressLine2: "Kipu, HI"
 }, {
   id: "8",
-  img: "https://placekitten.com/300/200",
+  img: "https://picsum.photos/id/7/300/200",
   firstPrice: "1,000,000",
   secondPrice: "99,000",
   bd: "4",
@@ -4492,7 +4492,7 @@ var listingResults = [{
   addressLine2: "Kipu, HI"
 }, {
   id: "9",
-  img: "https://placekitten.com/300/200",
+  img: "https://picsum.photos/id/8/300/200",
   firstPrice: "1,000,000",
   secondPrice: "99,000",
   bd: "4",
@@ -4502,7 +4502,7 @@ var listingResults = [{
   addressLine2: "Kipu, HI"
 }, {
   id: "10",
-  img: "https://placekitten.com/300/200",
+  img: "https://picsum.photos/id/9/300/200",
   firstPrice: "1,000,000",
   secondPrice: "99,000",
   bd: "4",
@@ -4514,7 +4514,7 @@ var listingResults = [{
 
 /***/ }),
 
-/***/ 1:
+/***/ 2:
 /*!**********************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=C%3A%5CUsers%5Cdusty%5COneDrive%5CDesktop%5CrealEstateSite%5Cpages%5Cindex.js ***!
   \**********************************************************************************************************************************************/
@@ -4537,5 +4537,5 @@ module.exports = dll_5f137288facb1107b491;
 
 /***/ })
 
-},[[1,"static/runtime/webpack.js"]]]);
+},[[2,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=index.js.map

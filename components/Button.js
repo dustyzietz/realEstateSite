@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Fragment } from "react";
 
 const Button = ({ iconPathD, text, iconFirst }) => {
   const icon = (
@@ -11,12 +11,23 @@ const Button = ({ iconPathD, text, iconFirst }) => {
     </svg>
   );
   return (
-    <button type="button">
-      <div className="flex">
-        <div>{iconFirst ? icon : text}</div>
-        <div>{iconFirst ? text : icon}</div>
-      </div>
-    </button>
+    <Fragment>
+      <button type="button">
+        <div className="flex">
+          <div>{iconFirst ? icon : text}</div>
+          <div>{iconFirst ? text : icon}</div>
+        </div>
+      </button>
+      <style jsx>{`
+        button {
+          border-radius: 0;
+        }
+        button:focus {
+          outline: 1px dotted;
+          outline: 5px auto -webkit-focus-ring-color;
+        }
+      `}</style>
+    </Fragment>
   );
 };
 

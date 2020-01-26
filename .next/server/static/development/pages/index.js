@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 4);
+/******/ 	return __webpack_require__(__webpack_require__.s = 3);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -102,10 +102,13 @@ module.exports =
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-jsx/style */ "styled-jsx/style");
+/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 var _jsxFileName = "C:\\Users\\dusty\\OneDrive\\Desktop\\realEstateSite\\components\\Button.js";
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
 
 const Button = ({
@@ -132,33 +135,45 @@ const Button = ({
     __self: undefined
   }));
 
-  return __jsx("button", {
-    type: "button",
+  return __jsx(react__WEBPACK_IMPORTED_MODULE_1__["Fragment"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 14
     },
     __self: undefined
-  }, __jsx("div", {
-    className: "flex",
+  }, __jsx("button", {
+    type: "button",
+    className: "jsx-478736260",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 15
     },
     __self: undefined
   }, __jsx("div", {
+    className: "jsx-478736260" + " " + "flex",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 16
     },
     __self: undefined
-  }, iconFirst ? icon : text), __jsx("div", {
+  }, __jsx("div", {
+    className: "jsx-478736260",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 17
     },
     __self: undefined
-  }, iconFirst ? text : icon)));
+  }, iconFirst ? icon : text), __jsx("div", {
+    className: "jsx-478736260",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18
+    },
+    __self: undefined
+  }, iconFirst ? text : icon))), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
+    id: "478736260",
+    __self: undefined
+  }, "button.jsx-478736260{border-radius:0;}button.jsx-478736260:focus{outline:1px dotted;outline:5px auto -webkit-focus-ring-color;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcZHVzdHlcXE9uZURyaXZlXFxEZXNrdG9wXFxyZWFsRXN0YXRlU2l0ZVxcY29tcG9uZW50c1xcQnV0dG9uLmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQW9Ca0IsQUFHMkIsQUFHRyxnQkFGckIsR0FHNEMsMENBQzVDIiwiZmlsZSI6IkM6XFxVc2Vyc1xcZHVzdHlcXE9uZURyaXZlXFxEZXNrdG9wXFxyZWFsRXN0YXRlU2l0ZVxcY29tcG9uZW50c1xcQnV0dG9uLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0LCB7IEZyYWdtZW50IH0gZnJvbSBcInJlYWN0XCI7XHJcblxyXG5jb25zdCBCdXR0b24gPSAoeyBpY29uUGF0aEQsIHRleHQsIGljb25GaXJzdCB9KSA9PiB7XHJcbiAgY29uc3QgaWNvbiA9IChcclxuICAgIDxzdmdcclxuICAgICAgY2xhc3NOYW1lPVwiaWNvbiBpY29uLXN2Z1wiXHJcbiAgICAgIHZpZXdCb3g9XCIwIDAgMzIgMzJcIlxyXG4gICAgICB4bWxucz1cImh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnXCJcclxuICAgID5cclxuICAgICAgPHBhdGggZD17aWNvblBhdGhEfSBmaWxsPVwiIzg2OTA5OVwiPjwvcGF0aD5cclxuICAgIDwvc3ZnPlxyXG4gICk7XHJcbiAgcmV0dXJuIChcclxuICAgIDxGcmFnbWVudD5cclxuICAgICAgPGJ1dHRvbiB0eXBlPVwiYnV0dG9uXCI+XHJcbiAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJmbGV4XCI+XHJcbiAgICAgICAgICA8ZGl2PntpY29uRmlyc3QgPyBpY29uIDogdGV4dH08L2Rpdj5cclxuICAgICAgICAgIDxkaXY+e2ljb25GaXJzdCA/IHRleHQgOiBpY29ufTwvZGl2PlxyXG4gICAgICAgIDwvZGl2PlxyXG4gICAgICA8L2J1dHRvbj5cclxuICAgICAgPHN0eWxlIGpzeD57YFxyXG4gICAgICAgIGJ1dHRvbiB7XHJcbiAgICAgICAgICBib3JkZXItcmFkaXVzOiAwO1xyXG4gICAgICAgIH1cclxuICAgICAgICBidXR0b246Zm9jdXMge1xyXG4gICAgICAgICAgb3V0bGluZTogMXB4IGRvdHRlZDtcclxuICAgICAgICAgIG91dGxpbmU6IDVweCBhdXRvIC13ZWJraXQtZm9jdXMtcmluZy1jb2xvcjtcclxuICAgICAgICB9XHJcbiAgICAgIGB9PC9zdHlsZT5cclxuICAgIDwvRnJhZ21lbnQ+XHJcbiAgKTtcclxufTtcclxuXHJcbmV4cG9ydCBkZWZhdWx0IEJ1dHRvbjtcclxuIl19 */\n/*@ sourceURL=C:\\\\Users\\\\dusty\\\\OneDrive\\\\Desktop\\\\realEstateSite\\\\components\\\\Button.js */"));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Button);
@@ -179,9 +194,6 @@ __webpack_require__.r(__webpack_exports__);
 var _jsxFileName = "C:\\Users\\dusty\\OneDrive\\Desktop\\realEstateSite\\components\\Card.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
-{
-  /* <Card id="listing-1"  img="https://placekitten.com/300/200" firstPrice="$1,000,000" secondPrice="99,000" bd="4" ba="2" sf="1,230" addressLine1="1234 Kuliana Pl, #300" addressLine2="Kipu, HI" /> */
-}
 
 const Card = ({
   listing: {
@@ -200,7 +212,7 @@ const Card = ({
     id: id,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20
+      lineNumber: 17
     },
     __self: undefined
   }, __jsx("a", {
@@ -208,13 +220,13 @@ const Card = ({
     title: "",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 21
+      lineNumber: 18
     },
     __self: undefined
   }, __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23
+      lineNumber: 20
     },
     __self: undefined
   }, __jsx("img", {
@@ -222,26 +234,26 @@ const Card = ({
     alt: "",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 24
+      lineNumber: 21
     },
     __self: undefined
   })), __jsx("div", {
     className: "flex",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27
+      lineNumber: 24
     },
     __self: undefined
   }, __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28
+      lineNumber: 25
     },
     __self: undefined
   }, "$", firstPrice), __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29
+      lineNumber: 26
     },
     __self: undefined
   }, __jsx("svg", {
@@ -250,7 +262,7 @@ const Card = ({
     xmlns: "http://www.w3.org/2000/svg",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 31
+      lineNumber: 28
     },
     __self: undefined
   }, __jsx("path", {
@@ -258,32 +270,32 @@ const Card = ({
     fill: "#869099",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36
+      lineNumber: 33
     },
     __self: undefined
   }))), __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 44
+      lineNumber: 41
     },
     __self: undefined
   }, `${secondPrice} < assessed`)), __jsx("div", {
     className: "flex",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 47
+      lineNumber: 44
     },
     __self: undefined
   }, __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 48
+      lineNumber: 45
     },
     __self: undefined
   }, __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 49
+      lineNumber: 46
     },
     __self: undefined
   }, __jsx("svg", {
@@ -292,7 +304,7 @@ const Card = ({
     xmlns: "http://www.w3.org/2000/svg",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 50
+      lineNumber: 47
     },
     __self: undefined
   }, __jsx("path", {
@@ -300,25 +312,25 @@ const Card = ({
     fill: "#869099",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 55
+      lineNumber: 52
     },
     __self: undefined
   }))), __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 61
+      lineNumber: 58
     },
     __self: undefined
   }, bd, "bd")), __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 63
+      lineNumber: 60
     },
     __self: undefined
   }, __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 64
+      lineNumber: 61
     },
     __self: undefined
   }, __jsx("svg", {
@@ -327,7 +339,7 @@ const Card = ({
     xmlns: "http://www.w3.org/2000/svg",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 65
+      lineNumber: 62
     },
     __self: undefined
   }, __jsx("path", {
@@ -335,25 +347,25 @@ const Card = ({
     fill: "#869099",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 70
+      lineNumber: 67
     },
     __self: undefined
   }))), __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 76
+      lineNumber: 73
     },
     __self: undefined
   }, ba, "ba")), __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 78
+      lineNumber: 75
     },
     __self: undefined
   }, __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 79
+      lineNumber: 76
     },
     __self: undefined
   }, __jsx("svg", {
@@ -362,7 +374,7 @@ const Card = ({
     xmlns: "http://www.w3.org/2000/svg",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 80
+      lineNumber: 77
     },
     __self: undefined
   }, __jsx("path", {
@@ -370,31 +382,31 @@ const Card = ({
     fill: "#869099",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 85
+      lineNumber: 82
     },
     __self: undefined
   }))), __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 91
+      lineNumber: 88
     },
     __self: undefined
   }, sf, "sf"))), __jsx("address", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 95
+      lineNumber: 92
     },
     __self: undefined
   }, __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 96
+      lineNumber: 93
     },
     __self: undefined
   }, addressLine1), __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 97
+      lineNumber: 94
     },
     __self: undefined
   }, addressLine2))));
@@ -441,19 +453,19 @@ function Filter() {
     iconFirst: "true",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 24
+      lineNumber: 8
     },
     __self: this
   }), __jsx("ul", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30
+      lineNumber: 14
     },
     __self: this
   }, __jsx("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 31
+      lineNumber: 15
     },
     __self: this
   }, __jsx(_Button__WEBPACK_IMPORTED_MODULE_1__["default"], {
@@ -461,13 +473,13 @@ function Filter() {
     text: "Any Price",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 32
+      lineNumber: 16
     },
     __self: this
   })), __jsx("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 37
+      lineNumber: 21
     },
     __self: this
   }, __jsx(_Button__WEBPACK_IMPORTED_MODULE_1__["default"], {
@@ -475,13 +487,13 @@ function Filter() {
     text: "All Beds",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 38
+      lineNumber: 22
     },
     __self: this
   })), __jsx("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 43
+      lineNumber: 27
     },
     __self: this
   }, __jsx(_Button__WEBPACK_IMPORTED_MODULE_1__["default"], {
@@ -489,13 +501,13 @@ function Filter() {
     text: "All Home Types",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 44
+      lineNumber: 28
     },
     __self: this
   })), __jsx("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 49
+      lineNumber: 33
     },
     __self: this
   }, __jsx(_Button__WEBPACK_IMPORTED_MODULE_1__["default"], {
@@ -503,13 +515,13 @@ function Filter() {
     text: "More",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 50
+      lineNumber: 34
     },
     __self: this
   })), __jsx("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 55
+      lineNumber: 39
     },
     __self: this
   }, __jsx(_Button__WEBPACK_IMPORTED_MODULE_1__["default"], {
@@ -518,7 +530,7 @@ function Filter() {
     iconFirst: true,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 56
+      lineNumber: 40
     },
     __self: this
   })))), __jsx("div", {
@@ -526,13 +538,13 @@ function Filter() {
     className: "flex",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 65
+      lineNumber: 49
     },
     __self: this
   }, __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 66
+      lineNumber: 50
     },
     __self: this
   }, __jsx("svg", {
@@ -541,7 +553,7 @@ function Filter() {
     xmlns: "http://www.w3.org/2000/svg",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 67
+      lineNumber: 51
     },
     __self: this
   }, __jsx("path", {
@@ -549,7 +561,7 @@ function Filter() {
     fill: "#869099",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 72
+      lineNumber: 56
     },
     __self: this
   }))), __jsx("select", {
@@ -557,20 +569,20 @@ function Filter() {
     id: "sort-list",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 78
+      lineNumber: 62
     },
     __self: this
   }, __jsx("option", {
     value: "0",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 79
+      lineNumber: 63
     },
     __self: this
   }, "Assessed Ratio")), __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 81
+      lineNumber: 65
     },
     __self: this
   }, __jsx("svg", {
@@ -579,7 +591,7 @@ function Filter() {
     xmlns: "http://www.w3.org/2000/svg",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 82
+      lineNumber: 66
     },
     __self: this
   }, __jsx("path", {
@@ -587,7 +599,7 @@ function Filter() {
     fill: "#869099",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 87
+      lineNumber: 71
     },
     __self: this
   })))));
@@ -820,7 +832,7 @@ function List() {
     listing: listing,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11
+      lineNumber: 9
     },
     __self: this
   })));
@@ -1119,13 +1131,7 @@ label {
   display: inline-block;
   margin-bottom: 0.5rem;
 }
-button {
-  border-radius: 0;
-}
-button:focus {
-  outline: 1px dotted;
-  outline: 5px auto -webkit-focus-ring-color;
-}
+
 input,
 button,
 select,
@@ -1361,7 +1367,7 @@ const listingResults = [{
 
 /***/ }),
 
-/***/ 4:
+/***/ 3:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/
@@ -1392,6 +1398,17 @@ module.exports = require("next/head");
 /***/ (function(module, exports) {
 
 module.exports = require("react");
+
+/***/ }),
+
+/***/ "styled-jsx/style":
+/*!***********************************!*\
+  !*** external "styled-jsx/style" ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("styled-jsx/style");
 
 /***/ })
 
